@@ -1,7 +1,7 @@
 {
   "title": "Custom Auth0 Logs to Splunk",
   "name": "custom-auth0-logs-to-splunk",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "author": "maryjaneth",
   "description": "This extension will take failed signup Auth0 logs and export them to Splunk",
   "type": "cron",
