@@ -38,8 +38,21 @@ module.exports = (storage) =>
         return cb();
       }
 
+      let types = ['fs'];
+
       logs.forEach(function (entry) {
-        Logger.send({ message: entry });
+
+        if (entry.indexOf('Unexpected response') && types.includes(entry[type]))
+        {
+          const err = entry.description;
+          const ty = entry.type;
+          Logger.send({ 
+            error: err, 
+            type: ty, 
+            details: entry 
+          });
+        }
+
       });
 
       logger.info(`Sending ${logs.length} logs to Splunk...`);
