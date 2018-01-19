@@ -1,12 +1,12 @@
 {
-  "title": "Auth0 Logs to Splunk",
-  "name": "auth0-logs-to-splunk",
+  "title": "Custom Auth0 Logs to Splunk",
+  "name": "custom-auth0-logs-to-splunk",
   "version": "2.0.3",
-  "author": "auth0",
-  "description": "This extension will take all of your Auth0 logs and export them to Splunk",
+  "author": "maryjaneth",
+  "description": "This extension will take failed signup Auth0 logs and export them to Splunk",
   "type": "cron",
   "category": "log_export",
-  "repository": "https://github.com/auth0-extensions/auth0-logs-to-splunk",
+  "repository": "https://github.com/blackbaud-maryjanethomson/auth0-logs-to-splunk",
   "docsUrl": "https://auth0.com/docs/extensions/splunk",
   "logoUrl": "https://cdn.auth0.com/extensions/auth0-logs-to-splunk/assets/logo.png",
   "keywords": [
