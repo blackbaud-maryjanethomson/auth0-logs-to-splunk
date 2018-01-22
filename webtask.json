@@ -7,6 +7,10 @@
   "type": "cron",
   "category": "log_export",
   "repository": "https://github.com/blackbaud-maryjanethomson/auth0-logs-to-splunk",
+  "keywords": [
+    "auth0",
+    "extension"
+  ],
   "schedule": "0 */5 * * * *",
   "auth0": {
     "createClient": true,
