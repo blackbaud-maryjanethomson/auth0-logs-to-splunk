@@ -6,7 +6,7 @@
   "description": "This extension will take failed signup Auth0 logs and export them to Splunk",
   "type": "cron",
   "category": "log_export",
-  "repository": "https://github.com/blackbaud-maryjanethomson/auth0-logs-to-splunk",
+  "repository": "https://github.com/blackbaud-maryjanethomson/custom-auth0-logs-to-splunk",
   "keywords": [
     "auth0",
     "extension"
